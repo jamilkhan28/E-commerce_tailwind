@@ -1,0 +1,66 @@
+.container {
+    margin: auto;
+    width: 90% !important;
+}
+
+.e-commerce {
+    width: 50%;
+}
+
+.e-commerce h1 {
+    margin: 15px 0;
+    font-weight: bold;
+    font-size: 26px;
+}
+
+.e-commerce button {
+	padding: 10px 20px;
+	background-color: #61b873;;
+	font-weight: 600;
+	color: #503838;
+	margin: 25px 0;
+	border-radius: 10px;
+}
+
+.e-commerce button:hover {
+	color: #ffffffd6;
+	background-color: #4d985b;
+}
+
+.e-commerce-img {
+    width: 50%;
+}
+
+.e-commerce-img img {
+    width: 100%;
+}
+
+.text-images {
+    display: flex;
+   align-items: center;
+   flex-wrap: wrap-reverse;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
