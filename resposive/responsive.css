@@ -1,0 +1,58 @@
+
+/* =====================================
+            Header Section Start
+    ===================================== */
+
+
+@media only screen and (min-width: 641px) and (max-width: 768px) {
+    .e-commerce {
+        width: 100%;
+    }
+    .e-commerce-img {
+        width: 80%;
+        margin: auto;
+    }
+    .e-commerce button {
+        margin: 25px auto;
+    }
+    .text-images {
+        flex-direction: column-reverse;
+    }
+    
+}
+
+@media only screen and (max-width: 640px) {
+    .e-commerce {
+        width: 100%;
+    }
+    .e-commerce-img {
+        width: 100%;
+        flex-wrap: wrap-reverse;
+    }
+    .e-commerce button {
+        margin: 25px auto;
+    }
+    .e-commerce h1 {
+        margin: 25px auto;
+    }
+    .text-images {
+        flex-direction: column-reverse;
+    }
+    .e-commerce h1 {
+        font-size: 20px;
+    }
+}
+
+/* =====================================
+            Header Section End
+    ===================================== */
+
+
+
+
+
+
+
+
+
+

@@ -1,3 +1,8 @@
+/* =====================================
+            Header Section End
+    ===================================== */
+
+
 .container {
     margin: auto;
     width: 90% !important;
@@ -5,30 +10,48 @@
 
 .e-commerce {
     width: 50%;
+    padding: 35px;
+    box-sizing: border-box;
 }
 
 .e-commerce h1 {
-    margin: 15px 0;
+    margin: 25px 0;
     font-weight: bold;
     font-size: 26px;
+    background-image: linear-gradient(to right,#706e01, #72b211, #184e69);
+    color: transparent;
+    -webkit-background-clip: text;
+    display: inline-block;
+}
+
+.e-commerce p{
+    color: rgba(75, 85, 99, 1.0);
+    font-weight:400;
 }
 
 .e-commerce button {
 	padding: 10px 20px;
-	background-color: #61b873;;
+    background-image: linear-gradient(to right,#706e01, #72b211, #184e69);
 	font-weight: 600;
 	color: #503838;
 	margin: 25px 0;
 	border-radius: 10px;
+    display: flex;
+}
+
+.e-commerce button span {
+    padding-left: 10px;
 }
 
 .e-commerce button:hover {
-	color: #ffffffd6;
-	background-color: #4d985b;
+	color: #fff;
+    background-image: linear-gradient(to right, #72b211, #184e69, #706e01);
 }
 
 .e-commerce-img {
     width: 50%;
+    padding: 35px;
+    box-sizing: border-box;
 }
 
 .e-commerce-img img {
@@ -38,10 +61,125 @@
 .text-images {
     display: flex;
    align-items: center;
-   flex-wrap: wrap-reverse;
+   flex-wrap: wrap;
+   background-color: rgba(178, 223, 246, 0.702);
 }
 
+ /* =====================================
+            Header Section End
+    ===================================== */
 
+ /* =====================================
+        Why choose us Section Start
+    ===================================== */
+
+.why_choose_us h1 {
+    margin: 50px;
+    font-size: 32px;
+    font-weight: 600;
+    color: rgba(0, 0, 0, 0.781);
+    text-align: center;
+    text-decoration-line: underline;
+    text-decoration-style: double;
+}
+         
+.svg_text {
+    display: flex;
+    justify-content: center;
+    flex-wrap: wrap;
+    gap: 32px;
+}
+
+.svg_content {
+    background-color: rgba(199, 129, 195, 0.5);
+    border-radius: 5px;
+    padding: 15px;
+    box-shadow: 0 10px 18px rgba(129, 155, 138, 0.59);
+    color: rgba(0, 0, 0, 0.821);
+}
+
+.svg_content svg {
+	height: 100px;
+	width: 100px;
+	margin: auto;
+}
+
+.svg_content h2 {
+    font-weight: 600;
+    padding: 0 30px;
+    margin-top: 15px;
+  }
+
+.svg_text>:nth-child(2) {
+    background-color: rgba(78, 204, 121, 0.50);
+}
+
+.svg_text>:nth-child(3) {
+    background-color: rgba(187, 204, 78, 0.5);
+}
+
+ /* =====================================
+        Why choose us Section End
+    ===================================== */
+
+ /* =====================================
+        Top selling Product start
+    ===================================== */
+
+.top_product h1 {
+    text-align: left;
+}
+
+.top_sales_product {
+	width: 400px;
+	background-color: cornsilk;
+	box-shadow: 0 10px 18px rgba(129, 155, 138, 0.59);
+	display: grid;
+	align-items: self-end;
+}
+
+.Top_product_img img {
+    width: 60%;
+    margin: 15px auto 0;
+}
+
+.top_fruits_text {
+    width: 100%;
+    padding: 15px 15px 0;
+}
+
+.top_fruits_text h2 {
+    font-size: 22px;
+    font-weight: 700;
+    color: rgba(0, 0, 0, 0.916);
+    margin-bottom: 25px;
+    background-image: linear-gradient(to right,#043607f3, #868d03f0, #1d1869);
+    color: transparent;
+    -webkit-background-clip: text;
+    display: inline-block;
+}
+
+.top_fruits_text button {
+    width: 100%;
+    margin: 25px 0 10px;
+    justify-content: center;
+}
+
+.top_sales_product:nth-child(even) {
+    background-color: rgba(247, 71, 71, 0.35);
+}
+
+.top_sales_product:nth-child(odd) {
+    background-color: rgba(250, 197, 135, 0.459);
+}
+
+.top_sales_content {
+    margin-bottom: 50px;
+}
+
+ /* =====================================
+        Top selling Product End
+    ===================================== */
 
 
 
