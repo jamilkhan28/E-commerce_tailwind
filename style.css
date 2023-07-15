@@ -130,8 +130,14 @@
     text-align: left;
 }
 
+.top_fruits_product {
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
+    width: 92%;
+    margin: auto;
+}
+
 .top_sales_product {
-	width: 400px;
 	background-color: cornsilk;
 	box-shadow: 0 10px 18px rgba(129, 155, 138, 0.59);
 	display: grid;
@@ -179,6 +185,82 @@
 
  /* =====================================
         Top selling Product End
+    ===================================== */
+
+ /* =====================================
+         Top oil product section start
+    ===================================== */
+
+
+
+
+
+
+
+
+ /* =====================================
+         Top oil product section End
+    ===================================== */
+
+ /* =====================================
+    Our business policy section start
+    ===================================== */
+
+    .business_policy {
+        flex-direction: row-reverse;
+        background-color: rgba(142, 142, 142, 0.13);
+    }
+
+    .business_policy span {
+        padding-right: 10px;
+    }
+ /* =====================================
+      Our business policy section End
+    ===================================== */
+
+ /* =====================================
+            Footer section start
+    ===================================== */
+    .footer_area {
+        background-color: rgba(46, 48, 50, 0.464);
+        margin: 50px 0;
+    }
+
+    .footer_area p {
+        padding: 40px;
+        text-align: center;
+        color: #fff;
+        font-size: 26px;
+        font-weight: 600;
+    }
+
+
+
+ /* =====================================
+            Footer section End
+    ===================================== */
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+ /* =====================================
+        Top oil product section End
     ===================================== */
 
 
